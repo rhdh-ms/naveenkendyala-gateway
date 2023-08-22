@@ -54,7 +54,7 @@ public class SummitBackendResource {
             MediaType.APPLICATION_JSON
         ).build();
     }
-
+   
     @GET
     @Path("poi/find/{id}")
     public Response getOneDataPoint(@PathParam("id") int id) throws IOException {
